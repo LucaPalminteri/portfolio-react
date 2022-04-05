@@ -1,0 +1,40 @@
+.home {
+    height: 100vh;
+    padding: 0 80px;
+    background-color: $yellow-1;
+}
+
+.home__navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #efefef;
+
+    .navbar--menu {
+        li {
+            display: inline-block;
+        }
+        li:nth-child(2) {
+            padding: 0 50px;
+        }
+    }
+
+    .navbar--social {
+        li {
+            display: inline-block;
+        }
+
+        li:nth-child(2) {
+            padding: 0 20px;
+        }
+    }
+}
+
+.home__container {
+    background-color: #acacac;
+    display: flex;
+    justify-content: space-between;
+}
+
