@@ -3,12 +3,15 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
+import image from '../images/ex.png'
+import exOne from '../images/extra-1.png'
+import exTwo from '../images/extra-2.png'
 
 export default function Home() {
     return (
         <div className="home">
             <nav className="home__navbar">
-                <img src="../images/logo-two.png" />
+                <h2>Luca Palminteri</h2>
                 <nav>
                     <ul className="navbar--menu">
                         <li><a href="#">Home</a></li>
@@ -27,16 +30,20 @@ export default function Home() {
 
             <div className="home__container">
                 <div className="home__info">
-                    <h2>Hi, I'm </h2>
-                    <h1>LUCA<br/>PALMINTERI</h1>
-                    <h2>FRONTEND DEVELOPER</h2>
-                    <div>
-                        <button>Contact</button>
-                        <button>Resume</button>
+                    <h2>Hello, I'm </h2>
+                    <h1>LUCA PALMINTERI</h1>
+                    <h2>FRONTEND DEVELOPER.</h2>
+                    <div className="btn-container">
+                        <button className="button-53">Contact</button>
+                        <button className="button-53">Resume</button>
                     </div>
                 </div>
 
-                <div className="home__img">Img</div>
+                <div className="home__img">
+                    <img className="ex-two" src={exTwo}/>
+                    <img src={image}/>
+                    <img className="ex-one" src={exOne}/>
+                </div>
             </div>
         </div>
     )
