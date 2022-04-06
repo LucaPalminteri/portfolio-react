@@ -1,24 +1,24 @@
 [
     {
         "id": 1,
-        "title": "Titulo 1",
-        "description": "Descripcion 1",
+        "title": "YouTune 2.0",
+        "description": "This app is a replic of YouTube, it has the same functionalities. I made it mainly with ReactJS, JavaScript, Sass, Icons, API.",
         "video": "Video 1",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F265%2F475%2Fnon_2x%2Fvector-project-management-web-banner.jpg&f=1&nofb=1",
         "link": "https://lucapalminteri.github.io/Moving/"
     },
     {
         "id": 2,
-        "title": "Title 2",
-        "description": "Description 2",
+        "title": "Wheater API",
+        "description": "An app that can conect to an external API to ask for data JSON. I use React with AXIOS library to conect with the API. I used aswnc-await functions.",
         "video": "",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godfrey.com%2F-%2Fmedia%2Fgodfrey%2Finsights%2Fdigital%2Fawesome-b2b-websites%2Fawesome-web-1200x630.jpg%3Fla%3Den%26%26hasBAEA78DDD94FE233A85C8E0C5F2D1A1F6F9C396&f=1&nofb=1",
         "link": "https://lucapalminteri.github.io/Moving/"
     },
     {
         "id": 3,
-        "title": "Title 3",
-        "description": "Description 3",
+        "title": "Food For Everyone",
+        "description": "This is a personal project build with React, consuming external APIs. The app conects with big food providers to get the data and the user can choose food a liitle bit cheaper.",
         "video": "",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapptech.com.tr%2Fwp-content%2Fuploads%2F2019%2F11%2Ftypes-of-websites-ecommerce.jpg&f=1&nofb=1",
         "link": "https://lucapalminteri.github.io/Moving/"

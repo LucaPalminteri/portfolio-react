@@ -1,9 +1,6 @@
 .home {
-
-    border-bottom: 1px solid $dark-blue;
-
     height: 100vh;
-    padding: $costs;
+    padding: $side;
     background-color: $light-yellow;
 }
 
@@ -196,7 +193,7 @@
 @media screen and (max-width: 599px) {
 
     .home {
-        padding: 0 20px;
+        padding: $responsive-side;
     }
 
     .home__navbar {
