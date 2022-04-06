@@ -281,5 +281,48 @@ a {
 .work {
   background-color: #FBF8CC;
   padding: 0 80px;
+  padding-bottom: 100px;
+}
+
+.work__cards-container {
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work__cards-container .cards-container__img {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-right: 20px;
+}
+
+.work__cards-container .cards-container__img img {
+  width: 100%;
+}
+
+.work__cards-container .cards-container__info {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 /*# sourceMappingURL=index.css.map */
