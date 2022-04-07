@@ -505,11 +505,10 @@ a {
 .contact {
   background-color: #FBF8CC;
   padding: 0 80px;
-  padding-bottom: 100px;
 }
 
 .contact h2 {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 60px;
   color: #F5EE84;
   font-style: normal;
@@ -576,7 +575,8 @@ a {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
-  height: 80px;
+  height: 120px;
+  resize: none;
 }
 
 .contact .contact__container .container--form .send {
@@ -589,44 +589,64 @@ a {
 }
 
 .contact .contact__container .container--info {
-  margin-left: 50px;
+  padding-left: 50px;
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
+}
+
+.contact .contact__container .container--info h3 {
+  font-size: 55px;
+}
+
+.contact .contact__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: solid #F5EE84;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.contact .contact__container .container--info * {
-  width: 100%;
+.contact .contact__social a {
+  margin: 0 40px;
+  font-size: 40px;
+  padding: 0 10px;
+  border-radius: 6px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
-.contact .contact__container .container--info .info--social {
+.contact .contact__social a:hover {
+  background-color: #F5EE84;
+}
+
+.contact .contact__footer {
+  margin-top: 100px;
+  padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 850px) {
   .contact {
     padding: 0 20px;
   }
-  .contact__container {
+  .contact .contact__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contact__container .container--info {
+  .contact .contact__container .container--info {
     padding-top: 50px;
-    margin-left: -20px;
+    margin-left: 0px;
+    padding: 50px 0;
   }
 }
 
