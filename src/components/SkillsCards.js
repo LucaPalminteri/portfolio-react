@@ -13,5 +13,5 @@ export default function SkillsCard(props) {
                 <p>{props.data.descriptionL}</p>            
             </div>
         </div>
-    )
+    ) 
 }

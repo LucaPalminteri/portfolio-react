@@ -1,8 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5,faJs,faReact,faSass, faBootstrap, faGitAlt, faCss3, faGithub, faNodeJs, faNpm, faFigma, faAws,
-faPhp, faLinux, faGitlab, faLess, faDocker } 
-from "@fortawesome/free-brands-svg-icons";
+faPhp, faLinux, faGitlab, faLess, faDocker } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import SkillsCard from "./SkillsCards";
 import skillsData from '../info/skills.json'

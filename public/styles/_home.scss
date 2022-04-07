@@ -3,19 +3,16 @@
     padding: $side;
     background-color: $light-yellow;
 }
-
 .home__navbar{
-    height: 75px;
+    height: $heigth-navbar;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
     h2 {
         font-weight: 600;
         font-size: 24px;
     }
-
     .navbar--menu {
         li {
             display: inline-block;
@@ -27,32 +24,25 @@
             padding: 0 50px;
         }
     }
-
     .navbar--social {
-
         .icon {
             height: 22px;
         }
-
         li {
             display: inline-block;
         }
-
         li:nth-child(2) {
             padding: 0 40px;
         }
     }
 }
-
 .home__container {
     width: 100%;
     height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     .home__info {
-
         h1 {
             line-height: 100px;
             max-width: 30vw;
@@ -60,20 +50,17 @@
             font-style: bold;
             font-size: 6.2rem;
         }
-
         h2 {
             font-style: normal;
             font-weight: 500;
             font-size: 28px;
             line-height: 75px;
         }
-
         .btn-container {
             margin-top: 20px;
             display: flex;
         }
-
-        .button-53 {
+        .btn {
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
@@ -87,12 +74,10 @@
             user-select: none;
             -webkit-user-select: none;
         }
-        
-        .button-53:focus {
+        .btn:focus {
             outline: 0;
         }
-        
-        .button-53:after {
+        .btn:after {
             content: '';
             position: absolute;
             border: 1px solid #000000;
@@ -103,13 +88,11 @@
             border-radius: 6px;
             transition-duration: .1s;
         }
-        
-        .button-53:hover:after {
+        .btn:hover:after {
             bottom: 0;
             left: 0;
         }
     }
-
     .home__img {
         display: flex;
         justify-content: end;
@@ -118,140 +101,111 @@
             height: 80%;
             width: 80%;
         }
-
-        .ex-one {
-            width: 30px;
-            justify-self: end;
-        }
-
-        .ex-two {
-            width: 50px;
-            align-self: flex-end;
-        }
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-    
+// -------------------------------------------------------------------------------------
+
+@media screen and (max-width: 1200px) {
     .home {
         .home__navbar {
             height: 10vh;
             margin-bottom: 2vh;
-    
             .navbar--btn {
                 border: none;
                 background-color: transparent;
                 font-size: 40px;
-
                 &:hover {
                     cursor: pointer;
                 }
             }
         }
     }
-
-
     .home__container {
         flex-direction: column;
-
-    .home__img {
-        order: 1;
-        justify-content: center;
-        height: 50%;
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .home__info {
-        width: 100%;
-        order: 2;
-        text-align: center;
-
-        h1 {
-            max-width: 100%;
-            font-size: 2.95rem;
-            line-height: 5rem;
-        }
-
-        h2 {
-            line-height: 60px;
-            font-size: 2rem;
-        }
-
-        .btn-container {
-            justify-content: space-around;
-            margin-top: 4vh;
-
-            button {
-                margin-right:0 ;
-                transform: scale(1.4);
-            }
-        }
-    }
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    .home {
-        padding: $responsive-side;
-    }
-
-    .home__navbar {
-        height: 10vh;
-        margin-bottom: 2vh;
-
-        .navbar--btn {
-            border: none;
-            background-color: transparent;
-            font-size: 40px;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }
-    
-    .home__container {
-        flex-direction: column;
-
         .home__img {
             order: 1;
             justify-content: center;
             height: 50%;
-
             img {
                 width: 100%;
                 height: 100%;
             }
         }
-
         .home__info {
             width: 100%;
             order: 2;
+            text-align: center;
+            h1 {
+                max-width: 100%;
+                font-size: 2.95rem;
+                line-height: 5rem;
+            }
+            h2 {
+                line-height: 60px;
+                font-size: 2rem;
+            }
+            .btn-container {
+                justify-content: space-around;
+                margin-top: 4vh;
+                button {
+                    margin-right:0 ;
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+}
 
+// -------------------------------------------------------------------------------------
+
+@media screen and (max-width: 600px) {
+    .home {
+        padding: $responsive-side;
+    }
+    .home__navbar {
+        height: 10vh;
+        margin-bottom: 2vh;
+        .navbar--btn {
+            border: none;
+            background-color: transparent;
+            font-size: 40px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .home__container {
+        flex-direction: column;
+        .home__img {
+            order: 1;
+            justify-content: center;
+            height: 50%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .home__info {
+            width: 100%;
+            order: 2;
             h1 {
                 max-width: 100%;
                 font-size: 2.5rem;
                 line-height: 55px;
             }
-
             h2 {
                 line-height: 60px;
                 font-size: 1.5rem;
             }
-
             .btn-container {
                 justify-content: space-between;
-
                 button {
                     margin-right:0 ;
                 }
             }
         }
-        
     }
 }
+
+// -------------------------------------------------------------------------------------

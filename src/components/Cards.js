@@ -1,7 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" 
-import {faRightLong} from '@fortawesome/free-solid-svg-icons'
-import {faLeftLong} from '@fortawesome/free-solid-svg-icons'
+import {faRightLong, faLeftLong} from '@fortawesome/free-solid-svg-icons'
 
 export default function Cards(props) {
 

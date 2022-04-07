@@ -2,7 +2,6 @@
 .skills {
     background-color: $light-yellow;
     padding: $side;
-
     h2 {
         padding-top: 100px;
         color: $yellow;
@@ -11,32 +10,27 @@
         font-size: 100px;
         line-height: 150px;
     }
-
-
-        .skills__container--known {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            font-size: 30px;
-            margin: 30px 0;
-        }
-
-        .skills__container--learning {
-            display: flex;
-            justify-content: space-between;
-            font-size: 30px;
-            margin: 30px 0;
-        }
+    .skills__container--known {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .skills__container--learning {
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        margin: 30px 0;
+    }
     
     .skills__container--card {
         display: flex;
         margin-top: 60px;
-
         .container--space {
             min-width: 60px;
             flex-grow: 1;
         }
-
         .container--card {
             flex-grow: 1;
             h3 {
@@ -47,14 +41,14 @@
                 margin-bottom: 16px;
             }
         }
-
         .card-left {
             text-align: right;
         }
-
     }
     
 }
+
+// -------------------------------------------------------------------------------------
 
 @media screen and (max-width: 850px) {
     .skills {
@@ -62,12 +56,13 @@
     }
 }
 
+// -------------------------------------------------------------------------------------
+
 @media screen and (max-width: 700px) {
 
     .skills__container--card {
         flex-direction: column;
     }
-
     .container--space {
         min-height: 60px;
     }

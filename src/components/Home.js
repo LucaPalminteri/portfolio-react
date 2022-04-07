@@ -3,8 +3,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import image from '../images/ex.png'
-import exOne from '../images/extra-1.png'
-import exTwo from '../images/extra-2.png'
 import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
 
 export default function Home() {
@@ -42,7 +40,6 @@ export default function Home() {
                 </nav></>}
                 {width<1200 && <button onClick={toggle} className="navbar--btn">☰</button>}
             </nav>
-
             <div className="home__container">
                 <div className="home__info">
                     <h2>Hello, I'm </h2>
@@ -50,15 +47,12 @@ export default function Home() {
                     <h2>FRONTEND DEVELOPER.</h2>
                     <div className="btn-container">
                     
-                        <button className="button-53"> Contact</button>
-                        <a href={resume} download="CV-Palminteri-Luca-Frontend-Developer"><button className="button-53">Resume</button></a>
+                        <button className="btn"> Contact</button>
+                        <a href={resume} download="CV-Palminteri-Luca-Frontend-Developer"><button className="btn">Resume</button></a>
                     </div>
                 </div>
-
                 <div className="home__img">
-                    {/* <img className="ex-two" src={exTwo}/> */}
                     <img src={image}/>
-                    {/* <img className="ex-one" src={exOne}/> */}
                 </div>
             </div>
         </div>

@@ -98,7 +98,7 @@ a {
   display: flex;
 }
 
-.home__container .home__info .button-53 {
+.home__container .home__info .btn {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -115,11 +115,11 @@ a {
   -webkit-user-select: none;
 }
 
-.home__container .home__info .button-53:focus {
+.home__container .home__info .btn:focus {
   outline: 0;
 }
 
-.home__container .home__info .button-53:after {
+.home__container .home__info .btn:after {
   content: '';
   position: absolute;
   border: 1px solid #000000;
@@ -132,7 +132,7 @@ a {
           transition-duration: .1s;
 }
 
-.home__container .home__info .button-53:hover:after {
+.home__container .home__info .btn:hover:after {
   bottom: 0;
   left: 0;
 }
@@ -151,19 +151,7 @@ a {
   width: 80%;
 }
 
-.home__container .home__img .ex-one {
-  width: 30px;
-  -ms-grid-column-align: end;
-      justify-self: end;
-}
-
-.home__container .home__img .ex-two {
-  width: 50px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-}
-
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .home .home__navbar {
     height: 10vh;
     margin-bottom: 2vh;

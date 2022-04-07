@@ -13,7 +13,9 @@ export default function Work() {
     return (
         <div className="work">
             <h2>work.</h2>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquid expedita, maxime aspernatur, neque nemo officiis velit est voluptas esse ratione porro mollitia voluptatum laudantium quas, accusantium quis rem placeat!
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquid expedita, 
+                maxime aspernatur, neque nemo officiis velit est voluptas esse ratione porro mollitia 
+                voluptatum laudantium quas, accusantium quis rem placeat!
             </h3>
             {cards}
         </div>
