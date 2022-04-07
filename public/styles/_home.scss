@@ -142,6 +142,10 @@
                 border: none;
                 background-color: transparent;
                 font-size: 40px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -190,7 +194,7 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
 
     .home {
         padding: $responsive-side;
@@ -204,6 +208,10 @@
             border: none;
             background-color: transparent;
             font-size: 40px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
     

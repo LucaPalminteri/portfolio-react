@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" 
-import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
-import {faGithub} from "@fortawesome/free-brands-svg-icons"
+import {faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import image from '../images/ex.png'
 import exOne from '../images/extra-1.png'

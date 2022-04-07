@@ -12,9 +12,6 @@
         line-height: 150px;
     }
 
-    .skills__container {
-    }
-
 
         .skills__container--known {
             width: 100%;
@@ -59,11 +56,13 @@
     
 }
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 850px) {
     .skills {
         padding: $responsive-side;
     }
+}
+
+@media screen and (max-width: 700px) {
 
     .skills__container--card {
         flex-direction: column;
