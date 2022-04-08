@@ -11,11 +11,12 @@ export default function Work() {
     })
 
     return (
-        <div className="work">
+        <div className="work" id="work">
             <h2>work.</h2>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquid expedita, 
-                maxime aspernatur, neque nemo officiis velit est voluptas esse ratione porro mollitia 
-                voluptatum laudantium quas, accusantium quis rem placeat!
+            <h3>I am someone who is mature, candid and who has integrity.  Everyday I work to improve myself 
+                and my skills which is part of maturing and becoming better at what I do.<br/>
+                I seek to work for a successful company that has strong leadership and vision and who recognizes 
+                and rewards performers.
             </h3>
             {cards}
         </div>

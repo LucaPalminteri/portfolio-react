@@ -17,13 +17,18 @@ export default function Cards(props) {
                     </div>
                 </div>
                 <div className="cards-container__img left">
-                    <img src={props.data.image}/>
+                <video width="100%" poster={props.data.image} muted autoPlay loop>
+                        <source src={props.data.video} type="video/mp4" />
+                    </video>
                 </div> 
             </> 
             : 
             <>
                 <div className="cards-container__img">
-                    <img src={props.data.image}/>
+
+                    <video width="100%" poster={props.data.image} muted autoPlay loopS>
+                        <source src={props.data.video} type="video/mp4" />
+                    </video>
                 </div>  
                 <div className="cards-container__info">
                     <h3>{props.data.title}</h3>

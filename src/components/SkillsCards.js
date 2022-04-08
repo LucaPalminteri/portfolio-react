@@ -10,7 +10,7 @@ export default function SkillsCard(props) {
             <div className="container--space"></div>
             <div className="container--card card-right">
                 <h3>{props.data.titleR}</h3>
-                <p>{props.data.descriptionL}</p>            
+                <p>{props.data.descriptionR}</p>            
             </div>
         </div>
     ) 

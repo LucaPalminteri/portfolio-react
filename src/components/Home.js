@@ -2,7 +2,6 @@ import React, {useState, useEffect, useRef} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" 
 import {faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import image from '../images/ex.png'
 import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
 
 export default function Home() {
@@ -26,9 +25,9 @@ export default function Home() {
                 <>
                 <nav>
                     <ul className="navbar--menu">
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <nav>
@@ -51,7 +50,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="home__img">
-                    <img src={image}/>
+                    <img src='/images/ex.png'/>
                 </div>
             </div>
         </div>

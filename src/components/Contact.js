@@ -9,7 +9,7 @@ export default function Contact() {
     let year = d.getFullYear();
 
     return (
-        <div className="contact subtitle">
+        <div className="contact subtitle" id="contact">
             <h2>contact.</h2>
             <div className="contact__container">
                 <form className="container--form">
@@ -28,7 +28,7 @@ export default function Contact() {
                 <a href="mailto:lucapalminteri02@gmail.com" target="_blank"><FontAwesomeIcon className="icon" icon={faEnvelope}/></a>
             </div>
             <footer className="contact__footer">
-                <h4>Copyright &copy; {year} Luca Palminteri - All Rights Reserved</h4>
+                <p>Copyright &copy; {year} Luca Palminteri - All Rights Reserved</p>
             </footer>
         </div>
     )
