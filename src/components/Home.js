@@ -46,7 +46,6 @@ export default function Home() {
                     <h1>LUCA PALMINTERI</h1>
                     <h2>FRONTEND DEVELOPER.</h2>
                     <div className="btn-container">
-                    
                         <button className="btn"> Contact</button>
                         <a href={resume} download="CV-Palminteri-Luca-Frontend-Developer"><button className="btn">Resume</button></a>
                     </div>

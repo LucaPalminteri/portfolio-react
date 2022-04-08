@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "titleL": "APIs",
+        "titleL": "React JS",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "HTTP protocol",
+        "titleR": "JSX",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     },
     {
         "id": 2,
-        "titleL": "DOM manipulation",
+        "titleL": "AJAX",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "Passionate",
+        "titleR": "APIs REST",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     },
     {
         "id": 3,
-        "titleL": "React",
+        "titleL": "GitHub",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "HTML",
+        "titleR": "GIT",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     },
     {
         "id": 4,
-        "titleL": "JSON",
+        "titleL": "SASS",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "CSS",
+        "titleR": "BEM",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     },
     {
         "id": 5,
-        "titleL": "AJAX",
+        "titleL": "Responsive Design",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "UI",
+        "titleR": "JavaScript",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     },
     {
         "id": 6,
-        "titleL": "Responsive Design",
+        "titleL": "JSON",
         "descriptionL": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind",
-        "titleR": "GIT",
+        "titleR": "AJAX",
         "descriptionR": "lorem ipsu I dont know what else does it says but I'm gonna write whatever I wnant broo, if it's to little thats okay because I only need to fill this blank space and I'm writing with the first thing that comes to my mind"
     }
 ]
