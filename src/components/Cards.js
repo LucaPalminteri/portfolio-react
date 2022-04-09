@@ -12,7 +12,7 @@ export default function Cards(props) {
     }, []);
 
     function transitionTime(e) {
-        e.target.style.transition = ".4s";
+        e.target.style.transition = ".4s"; 
     }
 
     return (
