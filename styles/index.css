@@ -11,8 +11,7 @@
 }
 
 html, body {
-  width: 100%;
-  overflow: hidden;
+  width: 100vw;
 }
 
 :root {
