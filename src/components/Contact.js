@@ -41,6 +41,12 @@ export default function Contact() {
             <footer className="contact__footer">
                 <p>Copyright &copy; {year} Luca Palminteri - All Rights Reserved</p>
             </footer>
+
         </div>
     )
 }
+
+
+
+
+

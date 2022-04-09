@@ -10,6 +10,11 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 body {
   background-color: #FBF8CC;
 }

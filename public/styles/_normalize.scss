@@ -4,12 +4,13 @@
     color: $dark-blue;
     user-select: none;
     scroll-behavior: smooth;
-    //overflow-x: hidden;
+}
+:root {
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 body {
-    // width: 95vw;
-    // margin: auto;
     background-color: $light-yellow;
 }
 
