@@ -7,6 +7,7 @@ import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
 export default function Home() {
 
     const [width,setWidth] = useState(window.innerWidth);
+    const [isBtnOn,setIsBtnOn] = useState(false) 
 
     useEffect(()=>{
         function handleResize() {setWidth(window.innerWidth)}
@@ -14,7 +15,7 @@ export default function Home() {
     })
 
     function toggle() {
-        console.log("clicked");
+        setIsBtnOn((prevState) => !prevState);
     }
 
     return (
@@ -39,13 +40,32 @@ export default function Home() {
                 </nav></>}
                 {width<1200 && <button onClick={toggle} className="navbar--btn">☰</button>}
             </nav>
+            {
+            isBtnOn && 
+            <div className="menu-btn">
+                <nav>
+                    <ul className={"menu-btn__navbar"}>
+                        <li><a onClick={toggle} href="#work">Work</a></li>
+                        <li><a onClick={toggle} href="#skills">Skills</a></li>
+                        <li><a onClick={toggle} href="#contact">Contact</a></li>
+                        <li>
+                            <div className="menu-btn__navbar--social">
+                                <><a onClick={toggle} href="https://www.linkedin.com/in/luca-palminteri/?locale=en_US" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedinIn}/></a></>
+                                <><a onClick={toggle} href="https://github.com/LucaPalminteri" target="_blank"><FontAwesomeIcon className="icon" icon={faGithub}/></a></>
+                                <><a onClick={toggle} href="mailto:lucapalminteri02@gmail.com" target="_blank"><FontAwesomeIcon className="icon" icon={faEnvelope}/></a></>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>//<div className="hide"></div>
+            }
             <div className="home__container">
                 <div className="home__info">
                     <h2>Hello, I'm </h2>
                     <h1>LUCA PALMINTERI</h1>
                     <h2>FRONTEND DEVELOPER.</h2>
                     <div className="btn-container">
-                        <button className="btn"> Contact</button>
+                        <a href="#contact"><button className="btn">Contact</button></a>
                         <a href={resume} download="CV-Palminteri-Luca-Frontend-Developer"><button className="btn">Resume</button></a>
                     </div>
                 </div>

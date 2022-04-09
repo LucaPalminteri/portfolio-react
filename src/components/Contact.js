@@ -12,10 +12,10 @@ export default function Contact() {
         <div className="contact subtitle" id="contact">
             <h2>contact.</h2>
             <div className="contact__container">
-                <form className="container--form">
-                    <input className="name input" type="text" placeholder="Name" required></input>
-                    <input className="email input" type="email" placeholder="Email" required></input>
-                    <textarea className="message input" type="textarea" placeholder="Message" required></textarea>
+                <form action="https://formspree.io/f/mzbojbgy" method="POST" className="container--form">
+                    <input className="name input" type="text" placeholder="Name" name="name" required></input>
+                    <input className="email input" type="email" placeholder="Email" name="email" required></input>
+                    <textarea className="message input" type="textarea" placeholder="Message" name="message" required></textarea>
                     <button className="send input" type="submit">Send</button>
                 </form>
                 <div className="container--info">

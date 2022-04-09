@@ -3,7 +3,7 @@
     padding: $side;
     padding-bottom: 100px;
     h2 {
-        padding-top: 100px;
+        margin-top: 100px;
         color: $yellow;
         font-style: normal;
         font-weight: 800;
@@ -45,8 +45,16 @@
             margin-top: 40px;
             display: flex;
             font-size: 1.4rem;
+            border-bottom: 6px solid transparent;
+            transition-duration: .4s;
+
             i {
                 margin: 0 20px;
+            }
+
+            &:hover {
+                transform: translateX(30px);
+                border-bottom: 6px solid $yellow;
             }
         }
     }
@@ -55,6 +63,13 @@
         padding-right: 30px;
         text-align: right;
         align-items: flex-end;
+
+        link {
+            background-color: red;
+            transform: translateX(-30px);
+            border-bottom: 6px solid $yellow;
+        }
+        
     }
     .left {
         padding-right: 0;
