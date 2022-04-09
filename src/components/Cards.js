@@ -11,6 +11,10 @@ export default function Cards(props) {
         AOS.refresh();
     }, []);
 
+    function transitionTime(e) {
+        e.target.style.transition = ".4s";
+    }
+
     return (
         <div className="work__cards-container">
             {props.data.id % 2 === 0 ? 
@@ -18,7 +22,7 @@ export default function Cards(props) {
                 <div className="cards-container__info right">
                     <h3 data-aos="fade-right" data-aos-duration="800">{props.data.title}</h3>
                     <p data-aos="fade-right" data-aos-duration="800">{props.data.description}</p>
-                    <div data-aos="fade-right" data-aos-duration="800" className="link">
+                    <div data-aos="fade-right" data-aos-duration="800" className="link" onMouseOver={transitionTime}>
                         <i><FontAwesomeIcon className="icon" icon={faLeftLong}/></i>
                         <a href={props.data.link} target="_blank">View project</a>
                     </div>
@@ -41,7 +45,7 @@ export default function Cards(props) {
                 <div className="cards-container__info">
                     <h3 data-aos="fade-left" data-aos-duration="800">{props.data.title}</h3>
                     <p data-aos="fade-left" data-aos-duration="800">{props.data.description}</p>
-                    <div data-aos="fade-left" data-aos-duration="800" className="link">
+                    <div data-aos="fade-left" data-aos-duration="800" className="link" onMouseOver={transitionTime}>
                     <a href={props.data.link} target="_blank">View project</a>
                         <i><FontAwesomeIcon className="icon" icon={faRightLong}/></i>
                     </div>

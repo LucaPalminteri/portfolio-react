@@ -76,11 +76,12 @@
 
 
 .menu-btn {
+    z-index: 20;
     background-color: $yellow;
     position: absolute;
     left: 0;
     width: 100%;
-    animation-duration: .4s;
+    animation-duration: .2s;
     animation-name: slideIn;
     transition-timing-function: ease-out;
 
@@ -178,6 +179,11 @@
 // -------------------------------------------------------------------------------------
 
 @media screen and (max-width: 1200px) {
+
+    body {
+        background-color: lightblue;
+    }
+
     .home {
         .home__navbar {
             height: 10vh;

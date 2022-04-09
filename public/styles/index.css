@@ -148,12 +148,13 @@ a {
 }
 
 .menu-btn {
+  z-index: 20;
   background-color: #F5EE84;
   position: absolute;
   left: 0;
   width: 100%;
-  -webkit-animation-duration: .4s;
-          animation-duration: .4s;
+  -webkit-animation-duration: .2s;
+          animation-duration: .2s;
   -webkit-animation-name: slideIn;
           animation-name: slideIn;
   -webkit-transition-timing-function: ease-out;
@@ -275,6 +276,9 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
   .home .home__navbar {
     height: 10vh;
     margin-bottom: 2vh;
@@ -470,8 +474,8 @@ a {
   display: flex;
   font-size: 1.4rem;
   border-bottom: 6px solid transparent;
-  -webkit-transition-duration: .4s;
-          transition-duration: .4s;
+  -webkit-transition-duration: 6s;
+          transition-duration: 6s;
 }
 
 .work__cards-container .cards-container__info .link i {
@@ -490,6 +494,8 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .work__cards-container .right div:hover {
