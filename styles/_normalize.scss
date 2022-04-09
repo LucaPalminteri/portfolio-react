@@ -5,6 +5,7 @@
     user-select: none;
     scroll-behavior: smooth;
 }
+html, body { width:100%;  overflow:hidden; }
 :root {
     overflow: hidden;
     overflow-y: scroll;
