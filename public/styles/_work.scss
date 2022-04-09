@@ -53,7 +53,7 @@
             }
 
             &:hover {
-                transform: translateX(30px);
+                padding-left: 50px;
                 border-bottom: 6px solid $yellow;
             }
         }
@@ -64,10 +64,11 @@
         text-align: right;
         align-items: flex-end;
 
-        link {
-            background-color: red;
-            transform: translateX(-30px);
-            border-bottom: 6px solid $yellow;
+        div {
+
+            &:hover {
+                padding-right: 50px;
+            }
         }
         
     }

@@ -4,9 +4,12 @@
     color: $dark-blue;
     user-select: none;
     scroll-behavior: smooth;
+    //overflow-x: hidden;
 }
 
 body {
+    // width: 95vw;
+    // margin: auto;
     background-color: $light-yellow;
 }
 

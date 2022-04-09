@@ -1,3 +1,36 @@
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    } 
+}
+
+@keyframes slideOut {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    } 
+}
+
+.slide-up {
+    animation-duration: .8s;
+    animation-name: slideUp;
+    transition-timing-function: ease;
+}
+
 .home {
     height: 100vh;
     padding: $side;
@@ -9,11 +42,14 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
+    
     h2 {
         font-weight: 600;
         font-size: 24px;
     }
     .navbar--menu {
+        
         li {
             display: inline-block;
             font-style: normal;
@@ -37,23 +73,7 @@
     }
 }
 
-@keyframes slideIn {
-    0%{
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0%);
-    } 
-}
 
-@keyframes slideOut {
-    0%{
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100%);
-    } 
-}
 
 .menu-btn {
     background-color: $yellow;
@@ -94,7 +114,6 @@
     align-items: center;
     .home__info {
 
-        
         h1 {
             line-height: 100px;
             max-width: 30vw;
